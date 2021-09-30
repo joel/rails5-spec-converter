@@ -255,4 +255,8 @@ class HashRewriter
 
     puts str
   end
+
+  def transform_format(params)
+    log params
+  end
 end
